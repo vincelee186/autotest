@@ -45,6 +45,7 @@ class MyTestClass(BaseCase):
         self.type('input#password', "test")
         self.click('button[type="submit"]')
         self.assert_text("Invalid email or password", ".irPtrP")
+        # assa
 
 
 
